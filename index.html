@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Links For Google Fonts ("Rampart One") -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Contains App Name & Description -->
+    <header>
+        <h1 >Weather App</h1>     
+        <h3> A 5 Day Forecast Weather Dashboard</h3>   
+    </header>
+
+    <section class="container">
+        <!-- Search Container -->
+        <div class="searchbar-container"> 
+            <input class="searchbar-input" type="text" placeholder="Where?" autofocus/>
+            <!-- Search Button -->
+            <button class="search-button" type="button">Search</button>
+        </div>
+
+        <!-- Search History -->
+        <div class="history-container">
+            <div class="search-history">
+                <!-- Searched City History Button List -->
+                <ul class="history"></ul>
+            </div>
+        </div>
+
+        <!-- Current Weather -->
+        <div class="current-container">
+            <div class="current-weather">
+                <h4 class="current-date">00/00/2023</h4>
+                <h4 class="current-city">Weather In Los Angeles</h4>
+                <img class="current-icon" src="">
+                <h4 class="current-temp">0°</h4>
+                <h4 class="current-wind">Wind: 0mph</h4>
+                <h4 class="current-humidity">Humidity: 0%</h4>
+            </div>
+        </div>
+
+        <!-- 5 Day Forecast Cards -->
+        <div class="forecast-container">
+            <div class="day1 card">
+                <p class="date1">00/00/2023</p>
+                <img class="icon1" src="">
+                <p class="temp1">0°</p>
+                <p class="wind1">Wind: 0mph</p>
+                <p class="humidity1">Humidity: 0%</p>
+            </div>
+            <div class="day2 card">
+                <p class="date2"></p>
+                <img class="icon2" src="">
+                <p class="temp2"></p>
+                <p class="wind2"></p>
+                <p class="humidity2"></p>
+            </div>
+            <div class="day3 card">
+                <p class="date3"></p>
+                <img class="icon3" src="">
+                <p class="temp3"></p>
+                <p class="wind3"></p>
+                <p class="humidity3"></p>
+            </div>
+            <div class="day4 card">
+                <p class="date4"></p>
+                <img class="icon4" src="">
+                <p class="temp4"></p>
+                <p class="wind4"></p>
+                <p class="humidity4"></p>
+            </div>
+            <div class="day5 card">
+                <p class="date5"></p>
+                <img class="icon5" src="">
+                <p class="temp5"></p>
+                <p class="wind5"></p>
+                <p class="humidity5"></p>
+            </div>
+        </div>
+    </section>  
+<!-- Javascript -->
+<script src="./assets/js/script.js"></script>
+<!-- Dayjs For Date -->
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+</body>
+</html>

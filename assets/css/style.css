@@ -1,0 +1,80 @@
+/* Dynamic App Background Of Random Sky Images Made To Fit Screen */
+body {
+    background-image: url(https://source.unsplash.com/random/?sky);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    color: white;
+    font-family: 'Rampart One', cursive;
+    /* Added For Style & Adds Black Shadow Incase Random Sky Background Is  */
+    text-shadow: -1px 1px 2px black, 1px 1px 2px black, 1px -1px 0 black, -1px -1px 0 black;
+    font-size: 110%;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+/* Search Bar Section */
+.searchbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar-input{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 120%;
+}
+
+/* Search Button Section */
+.search-button {
+    border-radius: 15px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 110%;
+}
+
+/* Search History Section */
+
+
+/* Current Weather Section */
+.current-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 150%;
+}
+
+/* Forecast Section */
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: inline-block;
+    width: fit-content;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Media Queries */
