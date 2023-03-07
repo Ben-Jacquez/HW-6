@@ -6,10 +6,19 @@ var APIKey = "1334c975c9959428cd572b00adc9c533";
 function userInput() {
     const searchedCity = searchInput.value.trim();
     if (searchedCity) {
+        storeSearch(searchedCity);
         fetchWeather(searchedCity);
         fetchForecast(searchedCity);
         searchInput.value = "";
     }
+}
+
+// Save User Input In Local Storage And Add It To A List To Be Called Later
+function storeSearch() {
+    var previousSearches = JSON.parse(localStorage.getItem("")) || [];
+    previousSearches.push();
+    previousSearches = JSON.stringify(previousSearches);
+    localStorage.setItem("", previousSearches);
 }
 
 // Pulls Weather Data From OpenWeatherMap & Starts PostWeather
@@ -148,6 +157,9 @@ function postForecast (data) {
     d5Wind.innerText = `Wind: ${speed5}mph`;
     d5Humidity.innerText = `Humidity: ${humidity5}%`;
 }
+
+// Fetch City Data From Search History Buttons
+// function loadHistoryCity() {}
 
 // Search Bar & Search Button Queries
 var searchButton = document.querySelector(".searchbar-container button");

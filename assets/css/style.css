@@ -44,7 +44,19 @@ h1 {
 }
 
 /* Search History Section */
+.history-container {
+    display: flex;
+    flex-direction: column;
+}
 
+.search-history {
+    text-align: center;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 4px;
+}
 
 /* Current Weather Section */
 .current-container {
@@ -76,5 +88,3 @@ h1 {
     padding: 20px;
     margin: 20px;
 }
-
-/* Media Queries */

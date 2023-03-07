@@ -3,7 +3,7 @@
 5 Day Forecast Weather Dashboard. Search Any City To Receive The Forecast. This Application Displays Weather In Farenheit
 
 ## Deployed Website
-[Deployed Version Here]()
+[Deployed Version Here](https://ben-jacquez.github.io/Weather-App/)
 ![Website Screenshot](assets/img/Weather-App-ss.png)
 
 ## Table of Contents
@@ -15,15 +15,20 @@
 - [License](#license)
 
 ## Usage
-
+User inputs a location in search bar and clicks "Check Forecast" button then receives current weather and a 5 day forecast. User can also see a list of their past searched locations and can click on them to reload that locations forecast.
 
 ## Features
+- 5 Day Weather Forecast
+- Search Bar
+- Search Bar History
+- Dynamic Background That Changes Everytime The Page Loads Or Is Refreshed
 
 ## Technology Used
 - Visual Studio Code
 - HTML
 - CSS
 - Javascript
+- APIs: OpenWeatherMap & Google Fonts
 
 ## License
 MIT License
