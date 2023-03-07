@@ -4,7 +4,7 @@
 
 ## Deployed Website
 [Deployed Version Here]()
-![Website Screenshot]()
+![Website Screenshot](assets/img/Weather-App-ss.png)
 
 ## Table of Contents
 - [Description](#description)
@@ -18,7 +18,6 @@
 
 
 ## Features
-
 
 ## Technology Used
 - Visual Studio Code
